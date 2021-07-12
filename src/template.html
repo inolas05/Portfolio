@@ -1,0 +1,250 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Saloni Singh | Full Stack Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Saloni Singh] | Full Stack Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Saloni</span>
+          <br />
+          I'm a Full Stack Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile_pic_official.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                With an entrepreneur mindset, a dreamer and technology lover, will be helping you achieve your goals and grow. Full-stack developer with 2+ years experience in JavaScript, node.js, express.js and other web technologies. Excellent at developing custom web applications, setting up servers and maintaining them over time. Eager to learn new technologies and apply them in world-class projects. An excellent fit for your established work process and procedures, or will readily advise and help you build proper ones. 
+              </p>
+              <p class="about-wrapper__info-text">
+                Hobbies definitely add meanings to our life. I like to draw cartoon characters, 
+                go for walks and read. 
+                My goal in life is to travel around the world.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/Resume_Saloni_2021.pdf">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Face Recognition App</h3>
+                <div>
+                  <ul style="font-size:15px" class="mb-4">
+                    <li>Artificial intelligence face detection - using clarify API.</li>
+                    <li>Complete authentication mechanism using Bcrypt.</li>
+                    <li>Detailed logging of artificial intelligence face detection usage by users.</li>
+                    <li>Responsive web design.</li>
+                    <li>Tools used: HTML5, CSS Flexbox, React.js, JavaScript, Git, Git BASH, PostgreSQL, Node js, Express js, Postman.</li>
+                  </ul>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smartbrain05.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/inolas05/Smartbrain">
+                  Front End Source Code
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/inolas05/smartbrain_api">
+                  Back End Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://smartbrain05.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" width="1366" height="767" src="./assets/facialrecognition.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Ecommerce Store</h3>
+                <div>
+                  <ul style="font-size:15px" class="mb-4">
+                    <li>Incorporated PayPal functionality using REST API for the payment process.</li>
+                    <li>Phone store with the product details.</li>
+                    <li>Users can purchase multiple products at once, has a shopping cart where users can manage the products they want to buy.</li>
+                    <li>Navigate between webpages of app.</li>
+                    <li>Responsive web design.</li>
+                    <li>Tools used: HTML5, CSS Flexbox, React.js, JavaScript, Git, Git BASH.</li>
+                  </ul>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://ecom-store-project.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/inolas05/React-Ecommerce-store">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://ecom-store-project.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" width="1366" height="767" src="./assets/ecommerce.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Robo-Friends</h3>
+                <div>
+                  <ul style="font-size:15px" class="mb-4">
+                    <li>A real time search app that fetches data from 2 different APIs.</li>
+                    <li>In- Memory search functionality.</li>
+                    <li>Dynamic display of items based on search criteria.</li>
+                    <li>Formatting of JSON data in the user view</li>
+                    <li>Responsive web design.</li>
+                    <li>Tools used: HTML5, CSS Flexbox, React.js, JavaScript, Git, Git BASH.</li>
+                  </ul>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://inolas05.github.io/Robofriends-App/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/inolas05/Robofriends-App">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://inolas05.github.io/Robofriends-App/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img style="border: 1px solid #555" class="img-fluid" width="1366" height="767" src="./assets/robots.png"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:inolassingh@gmail.com"
+            >Email me</a>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/salonisinghfullstackengg/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+            <h5>LinkedIn</h5>
+          </a>
+          <a href="https://github.com/inolas05" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+            <h5>GitHub</h5>
+          </a>
+        </div>        
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
